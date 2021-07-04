@@ -1,5 +1,5 @@
 # Yachaq robot minihumanoide
-Robot mini humanoide de ultra bajo costo, de 20 gdl y construido con cartulina. Este proyecto busca acercar la robótica humanoide a estudiantes de recursos limitados.
+Robot mini humanoide de ultra bajo costo, de 20 gdl y construido con cartulina. Este proyecto busca acercar la robótica humanoide a más estudiantes, haciendo que el costo no sea una barrera.
 
 <p align="center">
   <a href="https://yachaq-robot.org"><img src="https://yachaq-robot.org/wp-content/uploads/2021/06/Real-frente-redimensionado.jpg" width="300" alt="Yachaq robot mini humanoide de bajo costo" /></a>
@@ -7,10 +7,14 @@ Robot mini humanoide de ultra bajo costo, de 20 gdl y construido con cartulina. 
 
 ## Origen
 Este proyecto nace con el objetivo de acercar la robótica humanoide a más estudiantes. Los robot de esta categoría suelen costar varios cientos o miles de dólares. Este proyecto nace con el objetivo de crear un robot de 20 GDL por menos de USD$100. 
-El año 2021, se estará presentando este proyecto opensource para que pueda ser usado en una nueva categoría de concurso: **Robótica Minihumanoide**, dentro del congreso anual de la **IEEE** sección Perú: [INTERCON 2021](https://www.intercon.org.pe/2021/contests/) .
+El año 2021, se estará presentando este proyecto opensource para que pueda ser usado en una nueva categoría de concurso: **Robótica Minihumanoide**, dentro del congreso anual de la **IEEE** sección Perú: [INTERCON 2021](https://www.intercon.org.pe/2021/contests/).
 
 ## Documentación
 En este espacio se describirá la documentación del proyecto y en el sitio web: [Yachaq-Robot.org](https://yachaq-robot.org).
+
+La documentación esta en desarrollo, pero puede ver los talleres de presentación ante los participantes del concurso IEEE INTERCON 2021 - Robotics Challenge, que se desarrollaron el 18 y 19 de junio de 2021. 
+[Taller 1: Diseno y construcción](https://youtu.be/-QRBQmrp5Ns).
+[Taller 2: Calibración y programación](https://youtu.be/fDKsOobGx8Y).
 
 
 ## Contribuciones
