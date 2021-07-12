@@ -1,0 +1,21 @@
+site_name: Yachaq  Robot
+site_url: https://docs.yachaq-robot.org
+nav:
+  - Inicio: index.md
+  - Construcción: 
+      - Primeros pasos: construccion-primeros-pasos.md
+      - Etapa 1 - Piezas de cartulina: construccion-1.md
+      - Etapa 2 - Calibración de servos: construccion-2.md
+      - Etapa 3 - Plegado y pegado: construccion-3.md
+      - Etapa 4 - Ensamblaje: construccion-4.md
+      - Etapa 5 - Cableado: construccion-5.md
+  - Programación: programacion.md
+  - Como apoyar: como-apoyar.md
+  - Acerca de: acerca-de.md
+
+theme:
+  name: flatly
+  nav_style: dark
+
+markdown_extensions:
+  - attr_list
