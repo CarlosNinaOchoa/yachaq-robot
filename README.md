@@ -13,8 +13,8 @@ El año 2021, se estará presentando este proyecto opensource para que pueda ser
 En este espacio se describirá la documentación del proyecto y en el sitio web: [Yachaq-Robot.org](https://yachaq-robot.org).
 
 La documentación esta en desarrollo, pero puede ver los talleres de presentación ante los participantes del concurso IEEE INTERCON 2021 - Robotics Challenge, que se desarrollaron el 18 y 19 de junio de 2021. 
- - [![Taller 1: Diseno y construcción](https://i.ytimg.com/vi/-QRBQmrp5Ns/maxresdefault.jpg)](https://youtu.be/-QRBQmrp5Ns).
- - [![Taller 2: Calibración y programación](https://i.ytimg.com/vi/fDKsOobGx8Y/maxresdefault.jpg)](https://youtu.be/fDKsOobGx8Y).
+ - ![![Taller 1: Diseno y construcción](https://i.ytimg.com/vi/-QRBQmrp5Ns/maxresdefault.jpg)](https://youtu.be/-QRBQmrp5Ns).
+ - ![![Taller 2: Calibración y programación](https://i.ytimg.com/vi/fDKsOobGx8Y/maxresdefault.jpg)](https://youtu.be/fDKsOobGx8Y).
 
 
 ## Contribuciones

@@ -1,14 +1,15 @@
 ---
 page_title: Inicio
 page_description: Yachaq, busca democratizar la robótica humanoide, mediante un hardware de ultra bajo costo.
-page_author: Carlos Nina Ochoa Roxana Gómez Romero
+page_author: Carlos Nina Ochoa, Roxana Gómez Romero
 page_date: 2021-07-05
 ---
 
 # Etapa 1: Obtener las partes de cartulina
 
 El objetivo de esta etapa es tener todas las piezas de cartulina, recortadas con la forma deseada. Para eso, seguimos los siguientes pasos:
-![Plantillas recortadas](img/partes-cortadas-1.jpg)
+
+![Plantillas recortadas](img/partes-cortadas-1.jpg){: width=450 }
 
 ## Plantillas
 
@@ -37,3 +38,7 @@ Si es así, entonces la impresión se realizó correctamente y puede imprimir el
 Es mejor si adhiere las plantillas a la cara posterior (de color marrón) de la cartulina, de ese modo el resultado tendrá mejor apariencia. siga con este proceso, hasta que haya pegado y recortado *todas las partes* de *todas las páginas*. 
 
 Esto puede tomarle algún tiempo. Recuerde que no es necesario que lo haga todo en un solo día. Tómese un descanso.
+
+![Plantillas recortadas](img/partes-cortadas-1.jpg)
+
+Luego de conseguir las piezas, guardalas. Antes de empezar con el plegado y ensamblado debemos ir a la [Etapa 2: Calibración de servos](../construccion-2).
