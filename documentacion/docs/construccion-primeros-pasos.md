@@ -38,6 +38,7 @@ Cable jumper 10cm MH            | 10
 Stove Bolt 1/8"x1/2"            | 18
 Tuerca cuadrada 1/8"            | 38
 Cartulina dúplex (70x100cm)     | 1
+Palitos de helado               | 4
 
 \*Puede usar un *Arduino Nano*, en lugar de un módulo *ESP32CAM*. En ese caso, podrá construir a Yachaq, sin la opción de cámara. Tambien puede usar un *Arduino Nano* y un módulo de cámara adicional, pero hemos encontrado que esto es más costoso, que usar el módulo *ESP32CAM*.
 
@@ -57,5 +58,5 @@ Para el proceso de ensamblaje necesitará:
 - Destornillador
 - Pegamento (cola)
 
-
+Lo que sigue ahora es empezar con la [Etapa 1: Obtener las piezas de cartulina](../construccion-1).
 

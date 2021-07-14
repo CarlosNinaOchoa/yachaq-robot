@@ -9,3 +9,7 @@ page_date: 2021-07-05
 
 Aún estamos construyendo este contenido, por favor vuelva pronto.
 
+
+![Nombres de servos](img/servo-numeracion.jpg)
+
+
