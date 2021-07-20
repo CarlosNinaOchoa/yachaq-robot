@@ -125,7 +125,7 @@ Felicitaciones. Ya tiene un servo calibrado. Solo faltan 19... Pero no te desali
 
 No caigas en la tentación de usar los valores de la imágen. Cada servo es diferente, como puedes ver.
 
-Y no olvides rotular los servos! 
+Y no olvides rotular los servos! Puedes usar el nombre de la *Tabla de calibración*. Así los identificaremos en esta dicumentación.
 
 ![Servos rotulados](img/calibracion-06.jpg){: width=60% }
 

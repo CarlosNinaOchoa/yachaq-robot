@@ -16,8 +16,9 @@ El objetivo de esta etapa es tener todas las piezas de cartulina, recortadas con
 Las plantillas (*templates*) deben imprimirse en papel común, usando una impresora convencional de tinta o láser (da los mismo, para nuestros fines). Puedes descargar las plantillas en su última versión, desde el repositorio oficial: <https://github.com/CarlosNinaOchoa/yachaq-robot>.
 
 ![Plantillas en PDF](img/plantillas.jpg)
+![Plantillas en PDF](img/plantilla-calibracion.jpg){: width=23%}
 
-En este momento, al archivo de plantillas tiene 9 páginas. Son todas la piezas que necesitarás.
+En este momento, al archivo de plantillas tiene 10 páginas. La última página, es una plantilla para la calibración de los servos. Son todas la piezas que necesitarás.
 
 ## Transferir plantilla a cartulina
 

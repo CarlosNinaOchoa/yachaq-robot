@@ -18,12 +18,16 @@ Yachaq, es una robot humanoide opensource, cuyo objetivo es facilitar el acceso 
 Sus principales características son:
 
  - Es un proyecto *opensource*, por lo que puedes construir tu propio robot *Yachaq*.
- - Tiene 20 grados de libertad. Son 6 en cada pierna, 3 por cada brazo, 1 en la cintura y 1 en el cuello.
+ - Tiene ***20 grados de libertad***. Son 6 en cada pierna, 3 por cada brazo, 1 en la cintura y 1 en el cuello.
  - Usa micro servos MG90s(x12) y SG90(x8).
  - Está controlado por un módulo ESP32CAM, compatible con Arduino IDE y librerías Arduino.
  - Tiene una cámara integrada que graba video 1080p @ 30fps.
  - Tiene conectividad Wifi y Bluetooth.
  - El costo de materiales es *menor a USD$ 100 dolares americanos* (depende de la ciudad en que te encuentres).
+
+La disposición de los grados de libertad puede verse en la imagen siguiente.
+
+ ![Nombres de servos](img/servo-numeracion.jpg){: width=55% }
 
 ## Dimensiones
 

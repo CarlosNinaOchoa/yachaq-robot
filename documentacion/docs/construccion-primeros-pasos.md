@@ -13,11 +13,11 @@ Este un proyecto muy emocionante, y ciertamente puede ser un reto por momentos, 
 
 La construcción tiene 5 etapas:
 
-- Etapa 1: Obtener las partes de cartulina recortada. 
-- Etapa 2: Calibrar los mico servos. 
-- Etapa 3: Plegar las piezas de cartulina y unirlas con cola y/o silicona caliente. 
-- Etapa 4: Ensamblar las piezas junto a los micro servos.
-- Etapa 5: Cableado
+- [Etapa 1](../construccion-1): Obtener las partes de cartulina recortada. 
+- [Etapa 2](../construccion-2): Calibrar los mico servos. 
+- [Etapa 3](../construccion-3): Plegar las piezas de cartulina y unirlas con cola y/o silicona caliente. 
+- [Etapa 4](../construccion-4): Ensamblar las piezas junto a los micro servos.
+- [Etapa 5](../construccion-5): Cableado
 
 Luego de concluida la construcción, pasaremos a la programación del robot. 
 Pero antes de todo, debemos asegurarnos de tener todos los materiales.
