@@ -9,20 +9,21 @@ page_date: 2021-07-05
 
 En esta etapa detallaremos como plegar las piezas de cartulina y como unirlas a los servos. La recomendación es trabajar esto por partes. Aquí describiré como plegar las piezas desde abajo hacia arriba, es decir, desde los pies a la cabeza. 
 
-Se describen aquí las piezas del lado derecho del robot. Naturalmente, las del lado izquierdo son simetricas a éstas.
+***Se describen aquí las piezas del lado derecho del robot. Naturalmente, las del lado izquierdo son simetricas a éstas***.
 
 ![Nombres de servos](img/plegado-1.jpg)
 
 
 ## Pie
 
-### Piezas necesarias
+### Piezas necesarias para el pie
 Para el pie derecho, necesitaremos las piezas nombradas:
 
- - Foot-Sole-R
- - Cover MG90-R
- - 2 palitos de helado (recortados a 8cm)
- - ***Servo 1R***
+ - 1 x Foot-Sole-R
+ - 1 x Cover MG90-R
+ - 2 x palitos de helado (recortados a 8cm)
+ - 2 x tuercas cuadradas de 1/8"
+ - ***1 x Servo 1R***
 
 ![Nombres de servos](img/plegado-pie-1.jpg) 
 
@@ -30,14 +31,21 @@ Para el pie derecho, necesitaremos las piezas nombradas:
 
 Para el pie izquierdo, necesitaremos las piezas nombradas:
 
- - Foot-Sole-L
- - Cover MG90-L
- - 2 palitos de helado (recortados a 8cm)
- - ***Servo 1L***
+ - 1 x Foot-Sole-L
+ - 1 x Cover MG90-L
+ - 2 x palitos de helado (recortados a 8cm)
+ - 2 x tuercas cuadradas de 1/8"
+ - ***1 x Servo 1L***
 
 Como verás, las piezas del lado derecho tienen una letra *R* (*right*) y las del lado izquierdo una letra *L* (*left*). Este patrón es el mismo para las demás piezas.
 
-### Proceso de plegado
+### Proceso de pegado de servo
+
+El proceso de colocar esta *"funda"* a los servos, es prácticamente el mismo para los 20 servomotres, así que puedes considerar el siguiente procedimiento como general. Aquí verás un video que muestra el proceso.
+
+<iframe width="784" height="441" src="https://www.youtube.com/embed/u9cq8NnvBbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Proceso de ensamble de pie
 
 Para ver un resumen del proceso, puedes ver este video.
 
@@ -59,33 +67,54 @@ Luego de haber realizado el plegado, tomamos la pieza ***Foot Sole R*** y coloca
 
 *Es recomendable, aplicar cola también en el palito de helado y dejar secar un poco ambas superfices, por unos pocos segundos antes de unirlas.*
 
-El resultado final será similar al paso 10, mostrado anteriormente.
-
-Antes de pegar las demás superficies, debes instalar el servomotor. Que tiene instalado su propia *"funda"* que para fines de esta documentación se ha llamado *"servo cover"*. 
-
-### Proceso de pegado de servo
-
-El proceso de colocar esta *"funda"* a los servos, es prácticamente el mismo para los 20 servomotres, así que puedes considerar el siguiente procedimiento como general. Aquí verás un video que muestra el proceso.
-
-<iframe width="784" height="441" src="https://www.youtube.com/embed/u9cq8NnvBbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Proceso de ensamble de pie
-
-Próximo video.
-
 ## Tobillo
 
-### Piezas necesarias
+### Piezas necesarias para el tobillo
 
+Para ensamblar el tobillo, se necesitan las piezas de nombre:
 
+- 1 x Ankle Core R
+- 1 x Ankle Cover R
+- 2 x tuercas cuadradas de 1/8"
 
-### Proceso de plegado y pegado
+### Proceso de plegado y pegado del tobillo
 
-Próximo video.
+Este video muestra el proceso de plegado y pegado del tobillo. Esta es una articulación *"pasiva"*, ya que no contiene un servo, sino que conecta a otras partes que si tienen servos.
+
+<iframe width="784" height="441" src="https://www.youtube.com/embed/_IiMpUz_Xdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Ensamble de Pie y Tobillo
+
+### Piezas necesarias para la unión pie - tobillo
+
+- 1 x Tobillo armado en el paso anterior (Ankle core R / Ankle Cover R)
+- 1 x Perno stove bolt 1/8"
+- 1 x Eje y perno de servomotor MG90s
+
+### Proceso de ensamble pie-tobillo
+
+Una vez que tenemos listos el pie y el tobillo, podemos realizar el ensamble de ambos. Esta será la primera unión entre piezas móviles. 
+
+**Algo muy importante**: Al insertar el perno, ten cuidado de ***no ajustarlo***. Apenas sientas que el perno ha llegado al final, debes dejar de girarlo. Si lo ajustas, aunque sea un poco, dañaras el pie y deberás rehacer la pieza.
+
+<iframe width="784" height="441" src="https://www.youtube.com/embed/EvuIxHkE0FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Ten en cuenta, que para este momento, el servo 1R ya ***debe estar calibrado*** y debe estar en su ***posición inicial***. Si no lo está, vuelve a la [Etapa 2 : Calibración de servos](../construccion-2), para calibrarlos todos.
+
+El resultado final se vera así.
+
+![Pie ensamblado 1](img/pie-ensamblado-01.jpg){: align=left, width=32% } ![Pie ensamblado 2](img/pie-ensamblado-02.jpg){: align=right, width=32% } ![Pie ensamblado 3](img/pie-ensamblado-03.jpg){: align=right, width=32% } 
 
 ## Pantorrilla
 
+La siguiente parte por armar será la pantorrilla. Empecemos!
+
 ### Piezas necesarias
+
+- 2 x Cover MG90 Calf R
+- 1 x Calf inner cover R
+- 1 x Calf outer cover R
+- 2 x tuercas cuadradas 1/8"
 
 ### Proceso de plegado
 

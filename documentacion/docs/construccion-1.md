@@ -39,7 +39,12 @@ Si es así, entonces la impresión se realizó correctamente y puede imprimir el
 Es mejor si adhiere las plantillas a la cara posterior (de color marrón) de la cartulina, de ese modo el resultado tendrá mejor apariencia. siga con este proceso, hasta que haya pegado y recortado *todas las partes* de *todas las páginas*. 
 
 Esto puede tomarle algún tiempo. Recuerde que no es necesario que lo haga todo en un solo día. Tómese un descanso.
+En el siguiente video puede ver el proceso.
 
-![Plantillas recortadas](img/partes-cortadas-1.jpg)
+<iframe width="784" height="441" src="https://www.youtube.com/embed/gA6OLJBBmIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Luego de conseguir las piezas, guardalas. Antes de empezar con el plegado y ensamblado debemos ir a la [Etapa 2: Calibración de servos](../construccion-2).
+Luego de conseguir las piezas, guardalas donde no se puedan aplastar o doblar.
+
+![Plantillas recortadas](img/partes-cortadas-1.jpg){: width=85% }
+
+Antes de empezar con el plegado y ensamblado debemos ir a la [Etapa 2: Calibración de servos](../construccion-2).
