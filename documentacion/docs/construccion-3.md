@@ -181,16 +181,20 @@ Para esta pieza, similar al tobillo, plegamos las partes y las unimos ***con col
 
 ## Servos de cadera
 
-
+Esta parte es muy particular. Es la unión de dos servos, de manera que sus ejes queden perpendiculares entre si. Este arreglo permite que la cadera sea mas estrecha y mantenga en el robot una mejor apariencia (una apariecncia más humanoide).
 
 ### Piezas necesarias
 
-### Proceso de plegado
+- 1 x Hip 2 Servo Cover 1 R
+- 1 x Hip 2 Servo Cover 2 R
+- 1 x Hip 2 Servo Cover 3 R
+- 2 x Tuerca cuadrada 1/8"
 
-### Proceso de pegado
+### Proceso de plegado y pegado 
 
+Hasta este punto, se realizaron grabaciones del proceso :/ Pero la explicación del siguiente video esta hecha a aprtir del modelo 3D, así que estoy seguro que será suficientemente clara.
 
-
+<iframe width="784" height="481" src="https://www.youtube.com/embed/lhV4XKFMjPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Pelvis
 
