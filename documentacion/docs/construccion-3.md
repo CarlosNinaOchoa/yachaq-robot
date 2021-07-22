@@ -81,13 +81,16 @@ Para ensamblar el tobillo, se necesitan las piezas de nombre:
 
 Este video muestra el proceso de plegado y pegado del tobillo. Esta es una articulación *"pasiva"*, ya que no contiene un servo, sino que conecta a otras partes que si tienen servos.
 
+Para esta pieza, plegamos las partes y las unimos ***con cola***. Es importante hacerlo con cola y ***no con silicona caliente***. Esto es porque conseguir la posición correcta de las partes toma unos segundos y la silicona caliente seca demasiado rápido. Si eso pasa, tendríamos la pieza mal armada y tendríamos que volver a hacerla.
+
 <iframe width="784" height="441" src="https://www.youtube.com/embed/_IiMpUz_Xdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Ensamble de Pie y Tobillo
+## Ensamble de articulación Pie y Tobillo
 
-### Piezas necesarias para la unión pie - tobillo
+### Piezas necesarias para la articulación pie - tobillo
 
 - 1 x Tobillo armado en el paso anterior (Ankle core R / Ankle Cover R)
+- 1 x Pie armado en los pasos anteriores
 - 1 x Perno stove bolt 1/8"
 - 1 x Eje y perno de servomotor MG90s
 
@@ -95,7 +98,7 @@ Este video muestra el proceso de plegado y pegado del tobillo. Esta es una artic
 
 Una vez que tenemos listos el pie y el tobillo, podemos realizar el ensamble de ambos. Esta será la primera unión entre piezas móviles. 
 
-**Algo muy importante**: Al insertar el perno, ten cuidado de ***no ajustarlo***. Apenas sientas que el perno ha llegado al final, debes dejar de girarlo. Si lo ajustas, aunque sea un poco, dañaras el pie y deberás rehacer la pieza.
+**Algo muy importante**: Al insertar el *Stove bolt 1/8"*, ten cuidado de ***no ajustarlo***. Apenas sientas que el perno ha llegado al final, debes dejar de girarlo. Si lo ajustas, aunque sea un poco, dañaras el pie y deberás rehacer la pieza. El tornillo que fija el eje del servo (al servo) si debe ajustarse.
 
 <iframe width="784" height="441" src="https://www.youtube.com/embed/EvuIxHkE0FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -109,43 +112,76 @@ El resultado final se vera así.
 
 La siguiente parte por armar será la pantorrilla. Empecemos!
 
-### Piezas necesarias
+### Piezas necesarias para la pantorrilla
 
 - 2 x Cover MG90 Calf R
 - 1 x Calf inner cover R
 - 1 x Calf outer cover R
 - 2 x tuercas cuadradas 1/8"
 
-### Proceso de plegado
+### Proceso de plegado y pegado de pantorrilla
 
-### Proceso de pegado
+El poceso de armado de la pantorrilla, se resume en el siguiente video.
 
-
-
+<iframe width="784" height="441" src="https://www.youtube.com/embed/KLAAYkVzR4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Muslo
 
-### Piezas necesarias
+### Piezas necesarias para el muslo
 
-### Proceso de plegado
+- 1 x Thigh cover 1 R
+- 1 x Thigh cover 2 R
+- 1 x Thigh core R
+- 1 x tuerca cuadrada 1/8"
 
-### Proceso de pegado
+### Proceso de plegado y pegado de muslo
 
+El poceso de armado de la muslo, se resume en el siguiente video.
 
+<iframe width="784" height="441" src="https://www.youtube.com/embed/NqS5jEvhve4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Ensamble de articulación Pantorrilla y Muslo (rodilla)
+
+Ahora que tenemos listo el muslo, procedemos a ensamblarlo con las partes anteriores (pie y pantorrilla). Esta es la segunda articulación del robot.
+
+### Piezas necesarias para articulación de rodilla
+
+- 1 x Pantorrilla/Pie ensamblada
+- 1 x Muslo armado
+- 1 x Perno *Stove bolt* 1/8"
+- 1 x Eje de servo MG90s con perno
+
+### Proceso de ensamble de rodilla
+
+**Algo muy importante**: Al insertar el perno *Stove bolt 1/8"*, ten cuidado de ***no ajustarlo***. Apenas sientas que el perno ha llegado al final, debes dejar de girarlo. Si lo ajustas, aunque sea un poco, dañaras la pieza y deberás rehacerla. El tornillo que fija el eje del servo (al servo) si debe ajustarse.
+
+<iframe width="784" height="441" src="https://www.youtube.com/embed/8hbxpq_X9C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Aqui puedes ver como va tomando forma. Ya parece una pierna. 
+
+![Muslo ensamblado 1](img/muslo-ensamblado-01.jpg){: align=left, width=48% } ![Muslo ensamblado 2](img/muslo-ensamblado-02.jpg){: align=right, width=48% } 
+
+Lo siguiente será seguir con la articulación que une el muslo con la cadera.
 
 ## Articulación de cadera
 
-### Piezas necesarias
+La siguiente pieza se parece mucho al tobillo. Esta hecha de dos partes de cartulina. Empecemos!
 
-### Proceso de plegado
+### Piezas necesarias para la articulación de cadera
 
-### Proceso de pegado
+- 1 x Hip frontal core R
+- 1 x Hip frontal cover R
+- 2 x Tuerca cuadrada 1/8"
 
+### Proceso de plegado y pegado de la articulación de cadera
 
+Para esta pieza, similar al tobillo, plegamos las partes y las unimos ***con cola***. Es importante hacerlo con cola y ***no con silicona caliente***. Esto es porque conseguir la posición correcta de las partes toma unos segundos y la silicona caliente seca demasiado rápido. Si eso pasa, tendríamos la pieza mal armada y tendríamos que volver a hacerla.
 
+<iframe width="784" height="441" src="https://www.youtube.com/embed/mw5cKjZrmkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Servos de cadera
+
+
 
 ### Piezas necesarias
 
