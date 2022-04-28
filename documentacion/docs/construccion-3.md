@@ -43,23 +43,16 @@ Como verás, las piezas del lado derecho tienen una letra *R* (*right*) y las de
 
 El proceso de colocar esta *"funda"* a los servos, es prácticamente el mismo para los 20 servomotres, así que puedes considerar el siguiente procedimiento como general. Aquí verás un video que muestra el proceso.
 
-<iframe width="784" height="441" src="https://www.youtube.com/embed/u9cq8NnvBbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="95%" height="441" src="https://www.youtube.com/embed/u9cq8NnvBbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Proceso de ensamble de pie
 
 Para ver un resumen del proceso, puedes ver este video.
 
-<iframe width="784" height="441" src="https://www.youtube.com/embed/e6XJL1mVsxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="95%" height="441" src="https://www.youtube.com/embed/e6XJL1mVsxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-Para empezar, tomamos la pieza ***Foot Sole R*** y realizamos un plegado, siguiendo los pasos siguientes.
-
-![Plegado de pie 3](img/pie-03.jpg){: align=left, width=48% } ![Plegado de pie 4](img/pie-04.jpg){: align=right, width=48% } 
-![Plegado de pie 5](img/pie-05.jpg){: align=left, width=48% } ![Plegado de pie 6](img/pie-06.jpg){: align=right, width=48% } 
-![Plegado de pie 7](img/pie-07.jpg){: align=left, width=48% } ![Plegado de pie 8](img/pie-08.jpg){: align=right, width=48% } 
-![Plegado de pie 9](img/pie-09.jpg){: align=left, width=48% } ![Plegado de pie 10](img/pie-10.jpg){: align=right, width=48% } 
-![Plegado de pie 11](img/pie-11.jpg){: align=left, width=48% } ![Plegado de pie 12](img/pie-12.jpg){: align=right, width=48% } 
-
+Para empezar, tomamos la pieza ***Foot Sole R*** y realizamos un plegado, siguiendo los pasos vistos en el video.
 
 Luego de haber realizado el plegado, tomamos la pieza ***Foot Sole R*** y colocamos cola en la zona marcada en celeste y debajo de donde se colocara el *palito de helado* recortado a 8cm. Como se muestra en la figura.
 
@@ -83,7 +76,7 @@ Este video muestra el proceso de plegado y pegado del tobillo. Esta es una artic
 
 Para esta pieza, plegamos las partes y las unimos ***con cola***. Es importante hacerlo con cola y ***no con silicona caliente***. Esto es porque conseguir la posición correcta de las partes toma unos segundos y la silicona caliente seca demasiado rápido. Si eso pasa, tendríamos la pieza mal armada y tendríamos que volver a hacerla.
 
-<iframe width="784" height="441" src="https://www.youtube.com/embed/_IiMpUz_Xdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="95%" height="441" src="https://www.youtube.com/embed/_IiMpUz_Xdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Ensamble de articulación Pie y Tobillo
 
@@ -100,7 +93,7 @@ Una vez que tenemos listos el pie y el tobillo, podemos realizar el ensamble de 
 
 **Algo muy importante**: Al insertar el *Stove bolt 1/8"*, ten cuidado de ***no ajustarlo***. Apenas sientas que el perno ha llegado al final, debes dejar de girarlo. Si lo ajustas, aunque sea un poco, dañaras el pie y deberás rehacer la pieza. El tornillo que fija el eje del servo (al servo) si debe ajustarse.
 
-<iframe width="784" height="441" src="https://www.youtube.com/embed/EvuIxHkE0FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="95%" height="441" src="https://www.youtube.com/embed/EvuIxHkE0FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Ten en cuenta, que para este momento, el servo 1R ya ***debe estar calibrado*** y debe estar en su ***posición inicial***. Si no lo está, vuelve a la [Etapa 2 : Calibración de servos](../construccion-2), para calibrarlos todos.
 
@@ -123,7 +116,7 @@ La siguiente parte por armar será la pantorrilla. Empecemos!
 
 El poceso de armado de la pantorrilla, se resume en el siguiente video.
 
-<iframe width="784" height="441" src="https://www.youtube.com/embed/KLAAYkVzR4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="95%" height="441" src="https://www.youtube.com/embed/KLAAYkVzR4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Muslo
 
@@ -138,7 +131,7 @@ El poceso de armado de la pantorrilla, se resume en el siguiente video.
 
 El poceso de armado de la muslo, se resume en el siguiente video.
 
-<iframe width="784" height="441" src="https://www.youtube.com/embed/NqS5jEvhve4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="95%" height="441" src="https://www.youtube.com/embed/NqS5jEvhve4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Ensamble de articulación Pantorrilla y Muslo (rodilla)
 
@@ -155,7 +148,7 @@ Ahora que tenemos listo el muslo, procedemos a ensamblarlo con las partes anteri
 
 **Algo muy importante**: Al insertar el perno *Stove bolt 1/8"*, ten cuidado de ***no ajustarlo***. Apenas sientas que el perno ha llegado al final, debes dejar de girarlo. Si lo ajustas, aunque sea un poco, dañaras la pieza y deberás rehacerla. El tornillo que fija el eje del servo (al servo) si debe ajustarse.
 
-<iframe width="784" height="441" src="https://www.youtube.com/embed/8hbxpq_X9C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="95%" height="441" src="https://www.youtube.com/embed/8hbxpq_X9C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Aqui puedes ver como va tomando forma. Ya parece una pierna. 
 
@@ -177,7 +170,7 @@ La siguiente pieza se parece mucho al tobillo. Esta hecha de dos partes de cartu
 
 Para esta pieza, similar al tobillo, plegamos las partes y las unimos ***con cola***. Es importante hacerlo con cola y ***no con silicona caliente***. Esto es porque conseguir la posición correcta de las partes toma unos segundos y la silicona caliente seca demasiado rápido. Si eso pasa, tendríamos la pieza mal armada y tendríamos que volver a hacerla.
 
-<iframe width="784" height="441" src="https://www.youtube.com/embed/mw5cKjZrmkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="95%" height="441" src="https://www.youtube.com/embed/mw5cKjZrmkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Servos de cadera
 
@@ -194,15 +187,20 @@ Esta parte es muy particular. Es la unión de dos servos, de manera que sus ejes
 
 Hasta este punto, se realizaron grabaciones del proceso :/ Pero la explicación del siguiente video esta hecha a aprtir del modelo 3D, así que estoy seguro que será suficientemente clara.
 
-<iframe width="784" height="481" src="https://www.youtube.com/embed/lhV4XKFMjPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="95%" height="481" src="https://www.youtube.com/embed/lhV4XKFMjPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Proceso de ensamble de pierna y cadera
+
+<iframe width="95%" height="481" src="https://www.youtube.com/embed/3ia0gOGuepc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Pelvis
 
 ### Piezas necesarias
 
-### Proceso de plegado
+### Proceso de plegado y pegado 
 
-### Proceso de pegado
+<iframe width="95%" height="481" src="https://www.youtube.com/embed/9UVAFX9vthI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 

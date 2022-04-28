@@ -9,7 +9,7 @@ page_date: 2021-07-05
 
 Bienvenid@ a la documentación oficial del proyecto [Yachaq Robot](https://yachaq-robot.org).
 
-![Header Yachaq](img/repository-header.png)
+![Header Yachaq](img/repository-header-02.png)
 
 Yachaq, es una robot humanoide opensource, cuyo objetivo es facilitar el acceso a hardware de aprendizaje de robótica  humanoide. Está diseñado para ser lo más económico posible, manteniendo las mejores prestaciones. Esto incluye tambien la fabricación, ya que puedes construir el tuyo sin necesidad de tener una impresora 3D o una cortadora láser. 
 

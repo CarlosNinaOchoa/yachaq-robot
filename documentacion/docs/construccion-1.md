@@ -41,7 +41,7 @@ Es mejor si adhiere las plantillas a la cara posterior (de color marrón) de la 
 Esto puede tomarle algún tiempo. Recuerde que no es necesario que lo haga todo en un solo día. Tómese un descanso.
 En el siguiente video puede ver el proceso.
 
-<iframe width="784" height="441" src="https://www.youtube.com/embed/gA6OLJBBmIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="95%" height="441" src="https://www.youtube.com/embed/gA6OLJBBmIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Luego de conseguir las piezas, guardalas donde no se puedan aplastar o doblar.
 
