@@ -5,14 +5,10 @@ Adafruit_PWMServoDriver leftBoard = Adafruit_PWMServoDriver(0x41); //Left board
 #define SERVO_FREQ 60 // Analog servos run at ~50 Hz updates
 
 /* 
- * Array que contiene la información de cada servo:
- *
+ * Array que contiene la información de calibracion y posicion inicial de cada servo:
  * ServoData[NumeroServo][X] = (pulso_min, pulso_max, ang_min, ang_max, ang_inicial)
- * 
  * NumeroServo = 0,1,2,3...19 (numero identificador del servo)
  * x = 0(pulso_min), 1(pulso_max), 2(ang_min), 3(ang_max), 4(ang_inicial)
- * 
- * 
 */
 
 int ServoData[20][5] = {
@@ -39,14 +35,13 @@ int ServoData[20][5] = {
 };
 
 // Variables
-int desfase = 20; // Desfase de tiempo en milisegundos -125
+int desfase = 20; // Tiempo de espera entre cambios de angulo en los servos (en milisegundos)
 
 
 void setup() {
 
   Serial.begin(9600);
-  //Serial.println("Programa: Sentadillas\n");
-
+  
   rightBoard.begin();
   leftBoard.begin();
   rightBoard.setOscillatorFrequency(27000000);
@@ -55,70 +50,78 @@ void setup() {
   leftBoard.setPWMFreq(SERVO_FREQ);  // Analog servos run at ~50 Hz updates
   
   delay(100);
-
-  //poner los servos en su angulo inicial
+  //poner los servos en su angulo inicial (robot de pie con los brazos abajo)
   ServosCero();
-  delay(100);
-  ServosCero();
-  delay(200);
+  delay(400);
   
 }
 
 void loop() {
-
     
-    //  El array mov, contiene en cada fila, los angulos que se desplazará cada servo 0 a 19, a partir de su punto inicial
-    //  El ultimo valor de cada fila, es la duración del movimiento en milisegundos 
-    //  Ejemplo:
-    //  int mov[][21] =   {
-    //  {1R,   2R,   3R,   4R,   5R,   6R,   7R,   8R,   9R,   10W,   1L,   2L,   3L,   4L,   5L,   6L,   7L,   8L,   9L,   10N,   tiempo},
-    //  {...},
-    //  };
-    int mov[][21] = {
+    /*  El array <rutina>, contiene en cada fila, los angulos que se desplazará cada servo 0 a 19, a partir de su punto inicial
+    *  El ultimo valor de cada fila, es la duración del movimiento en milisegundos 
+    *  Ejemplo:
+    *  int <rutina>[][21] =   {
+    *   {1R,   2R,   3R,   4R,   5R,   6R,   7R,   8R,   9R,   10W,   1L,   2L,   3L,   4L,   5L,   6L,   7L,   8L,   9L,   10N,   tiempo},
+    *   {...},
+    *  };
+    */
+
+
+// Rutina de movimiento: "Sentadillas"
+    int sentadilla[][21] = {
       {90,   90+40,   180-90,   90-80,   90,   90,   45+135,   0,   180,   45,   90,   90-40,   0+90,   90+80,   90,   90,   135-135,   180,   0,   45,   2000},
       {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000}
       };
-    int filas = sizeof(mov)/sizeof(mov[0]); // Obtiene el numero de filas del array mov[][]
-        
-    MoverServos(mov, filas);
+    int filas = sizeof(sentadilla)/sizeof(sentadilla[0]); // Obtiene el numero de filas del array sentadilla[][]
+    MoverServos(sentadilla, filas); // Ejecuta la rutina de movimiento
+    ServosCero(); // Retorna el robot a su posición inicial
+    delay(2000);
 
-    ServosCero();
-    delay(100);
-    ServosCero();
-    delay(200);
+// Rutina de movimiento: "Saludo"
+    int saludo[][21] = {
+      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
+      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
+      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
+      };
+    int filas = sizeof(saludo)/sizeof(saludo[0]); // Obtiene el numero de filas del array saludo[][]
+    MoverServos(saludo, filas); // Ejecuta la rutina de movimiento
+    ServosCero(); // Retorna el robot a su posición inicial
+    delay(2000);
 
-    delay(500);
+// Rutina de movimiento: "Pose"
+    int pose[][21] = {
+      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
+      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
+      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
+      };
+    int filas = sizeof(pose)/sizeof(pose[0]); // Obtiene el numero de filas del array pose[][]
+    MoverServos(pose, filas); // Ejecuta la rutina de movimiento
+    ServosCero(); // Retorna el robot a su posición inicial
+    delay(2000);
+
   
 }
 
-
-
-//Función que mapea los valores de angulo (0 a 180 grados) 
-//hacia valores de pulso, entre el minimo y maximo definidos
-
-//ServoData[NumeroServo][X] = (pulso_min, pulso_max, ang_min, ang_max, ang_inicial)
-
+//Función que mapea los valores de angulo (0 a 180 grados) hacia valores de pulso, entre el minimo y maximo definidos
 int AnguloAPulso (int numservo, int angulo) {
-  int pulso = map(angulo, 0, 180, ServoData[numservo][0], ServoData[numservo][1]);
+  int pulso = map(angulo, 0, 180, ServoData[numservo][0], ServoData[numservo][1]); 
+  //ServoData[NumeroServo][X] = (pulso_min, pulso_max, ang_min, ang_max, ang_inicial)
   return pulso;  
 }
 
-/*
- * Función de posiciona todos los servomotores en su posición inicial 
- */
+// Función de posiciona todos los servomotores en su posición inicial 
 void ServosCero() {          
 
       for(int i=0; i<20; i++){
         PosicionarServo(i,ServoData[i][4]);
         //Serial.print("\nServo "); Serial.print(i);Serial.print(": Angulo: "); Serial.print(ServoData[i][4]);
-        delay(200);
+        delay(300);
       }
-
+  delay(200);
 }
 
-/*
-* Función que desplaza el servo a una nueva posición
-*/
+//Función que desplaza el servo a una nueva posición
 void PosicionarServo(float numservo, float ang) {
 
   if(numservo >= 0 && numservo < 10){
@@ -133,6 +136,7 @@ void PosicionarServo(float numservo, float ang) {
   //Serial.print("\nServo: ");Serial.print(numservo);Serial.print(" Angulo: ");Serial.print(ang);
 }
 
+// Función que realiza la rutina de movimiento 
 void MoverServos(int mov[][21], int filas){
   
   for(int i=0; i < filas; i++){ // recorre todas las filas del array. Todas las etapas del movimiento
