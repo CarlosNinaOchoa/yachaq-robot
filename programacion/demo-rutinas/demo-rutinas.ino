@@ -37,6 +37,11 @@ int ServoData[20][5] = {
 // Variables
 int desfase = 200; // Tiempo de espera entre cambios de angulo en los servos (en milisegundos)
 
+//conexion serial
+char inChar;
+String inString = "",inTopic = "",inMessage = "";
+bool flagSubscribe = false;
+
 
 void setup() {
 
@@ -67,44 +72,63 @@ void loop() {
     *  };
     */
 
+if (flagSubscribe) {
+    flagSubscribe = false;
+    if(inTopic=="Yachaq"){
+      if(inMessage=="SALUDAR"){
+        // rutina de saludo al recibir por el puerto serial el mensaje "Yachaq,SALUDAR"
+        // Rutina de movimiento: "Saludo"
+        int saludo[][21] = {
+          {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   800},
+          {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   90,   180-20,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135+10,   180-40,   0,   45,   200},
+          {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   40,   180-70,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180-20,   0,   45,   200},
+          {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   90,   180-20,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135+10,   180-40,   0,   45,   200},
+          {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   40,   180-70,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180-20,   0,   45,   200},
+          {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   90,   180-20,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135+10,   180-40,   0,   45,   200},
+          {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   40,   180-70,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180-20,   0,   45,   200},
+          {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   800}
+          };
+        int filas2 = sizeof(saludo)/sizeof(saludo[0]); // Obtiene el numero de filas del array saludo[][]
+        MoverServos(saludo, filas2); // Ejecuta la rutina de movimiento
+        ServosCero(); // Retorna el robot a su posición inicial
+        delay(2000);
+  
+      }
+      if(inMessage=="SENTAR"){
+          // rutina de sentadilla al recibir por el puerto serial el mensaje "Yachaq,SENTAR"
+          // Rutina de movimiento: "Sentadillas"
+          int sentadilla[][21] = {
+            {90,   90+40,   180-90,   90-80,   90,   90,   45+135,   0,   180,   45,   90,   90-40,   0+90,   90+80,   90,   90,   135-135,   180,   0,   45,   2000},
+            {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000}
+            };
+          int filas1 = sizeof(sentadilla)/sizeof(sentadilla[0]); // Obtiene el numero de filas del array sentadilla[][]
+          MoverServos(sentadilla, filas1); // Ejecuta la rutina de movimiento
+          ServosCero(); // Retorna el robot a su posición inicial
+          delay(2000);
+      }
+      else if(inMessage=="OTRO"){
+        //rutina de sentadilla
 
-// Rutina de movimiento: "Sentadillas"
-    int sentadilla[][21] = {
-      {90,   90+40,   180-90,   90-80,   90,   90,   45+135,   0,   180,   45,   90,   90-40,   0+90,   90+80,   90,   90,   135-135,   180,   0,   45,   2000},
-      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000}
-      };
-    int filas1 = sizeof(sentadilla)/sizeof(sentadilla[0]); // Obtiene el numero de filas del array sentadilla[][]
-    MoverServos(sentadilla, filas1); // Ejecuta la rutina de movimiento
-    ServosCero(); // Retorna el robot a su posición inicial
-    delay(2000);
+      }
+    }
+  }
+   
+  /*
+  // Rutina de movimiento: "Pose"
+      int pose[][21] = {
+        {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
+        {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
+        {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
+        };
+      int filas = sizeof(pose)/sizeof(pose[0]); // Obtiene el numero de filas del array pose[][]
+      MoverServos(pose, filas); // Ejecuta la rutina de movimiento
+      ServosCero(); // Retorna el robot a su posición inicial
+      delay(2000);
+  */
+  
+  delay(200);
 
-// Rutina de movimiento: "Saludo"
-    int saludo[][21] = {
-      {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   800},
-      {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   90,   180-20,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135+10,   180-40,   0,   45,   200},
-      {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   40,   180-70,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180-20,   0,   45,   200},
-      {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   90,   180-20,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135+10,   180-40,   0,   45,   200},
-      {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   40,   180-70,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180-20,   0,   45,   200},
-      {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   90,   180-20,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135+10,   180-40,   0,   45,   200},
-      {90,   90+25,   180-45,   90-40,   90,   90,   45+135,   40,   180-70,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180-20,   0,   45,   200},
-      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   800}
-      };
-    int filas2 = sizeof(saludo)/sizeof(saludo[0]); // Obtiene el numero de filas del array saludo[][]
-    MoverServos(saludo, filas2); // Ejecuta la rutina de movimiento
-    ServosCero(); // Retorna el robot a su posición inicial
-    delay(2000);
-/*
-// Rutina de movimiento: "Pose"
-    int pose[][21] = {
-      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
-      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
-      {90,   90+25,   180-45,   90-40,   90,   90,   45,   0,   180,   45,   90,   90-25,   0+45,   90+40,   90,   90,   135,   180,   0,   45,   2000},
-      };
-    int filas = sizeof(pose)/sizeof(pose[0]); // Obtiene el numero de filas del array pose[][]
-    MoverServos(pose, filas); // Ejecuta la rutina de movimiento
-    ServosCero(); // Retorna el robot a su posición inicial
-    delay(2000);
-*/
+
   
 }
 
@@ -188,4 +212,27 @@ void MoverServos(int mov[][21], int filas){
     
   }
   
+}
+
+
+void serialEvent() {
+  while (Serial.available()) {
+    inChar = (char)Serial.read();
+    switch (inChar){
+      case '\r':
+        inMessage = inString;
+      break;
+      case '\n':
+        inString = "";
+        flagSubscribe = true;
+      break;
+      case ',':
+        inTopic = inString;
+        inString = "";
+      break;
+      default:
+        inString += inChar;
+      break;
+    }
+  }
 }
